@@ -42,6 +42,11 @@ export interface TextStyle extends CommonShapeProps {
    * @description.zh-CN CSS line-height
    */
   lineHeight?: CSSProperties['lineHeight'];
+  /**
+   * @description.en-US CSS text-decoration
+   * @description.zh-CN CSS text-decoration
+   */
+  textDecoration?: CSSProperties['textDecoration'];
 }
 
 interface TextProps extends CommonProps {
